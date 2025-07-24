@@ -7,8 +7,8 @@ A simple client-server chat application using TCP sockets in Java.
 
 ## 📁 Files
 
-- `ChatServerX.java`: Java server code (waits for client, handles messages).
-- `ChatClientX.java`: Java client code (connects to server, sends/receives messages).
+- `ChatServer.java`: Java server code (waits for client, handles messages).
+- `ChatClient.java`: Java client code (connects to server, sends/receives messages).
 
 ---
 
@@ -16,18 +16,18 @@ A simple client-server chat application using TCP sockets in Java.
 
 ### 1. Compile both programs:
 ```bash
-javac ChatServerX.java
-javac ChatClientX.java
+javac ChatServer.java
+javac ChatClient.java
 ```
 
 ### 2. Run Server (in one terminal):
 ```bash
-java ChatServerX
+java ChatServer
 ```
 
 ### 3. Run Client (in another terminal):
 ```bash
-java ChatClientX
+java ChatClient
 ```
 
 ---
